@@ -1,0 +1,637 @@
+{
+    "intents": [
+            {
+                    "tag": "greeting",
+                    "patterns": [
+                            "Hi",
+                            "How are you",
+                            "Is anyone there?",
+                            "Hello",
+                            "Good day"
+                    ],
+                    "responses": [
+                            "Hello, thanks for visiting",
+                            "Good to see you again",
+                            "Hi there, how can I help?"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "goodbye",
+                    "patterns": [
+                            "Bye",
+                            "See you later",
+                            "Goodbye"
+                    ],
+                    "responses": [
+                            "See you later, thanks for visiting",
+                            "Have a nice day",
+                            "Bye! Come back again soon."
+                    ]
+            },
+            {
+                    "tag": "thanks",
+                    "patterns": [
+                            "Thanks",
+                            "Thank you",
+                            "That's helpful"
+                    ],
+                    "responses": [
+                            "Happy to help!",
+                            "Any time!",
+                            "My pleasure"
+                    ]
+            },
+            {
+                    "tag": "chatbot",
+                    "patterns": [
+                            "Who built this chatbot?",
+                            "Tell me about Chatbot",
+                            "What is this chatbot name?"
+                    ],
+                    "responses": [
+                            "Hi, I am Chatbot designed by Mayank.",
+                            "Thanks for asking. I am designed by Mayank Bajaj.",
+                            "I am a chatbot."
+                    ]
+            },
+            {
+                    "tag": "location",
+                    "patterns": [
+                            "What is your location?",
+                            "Where are you located?",
+                            "What is your address?"
+                    ],
+                    "responses": [
+                            "We are from World's largest Democracy India.",
+                            "You can visit India to meet us",
+                            "Thans for your Interest. I live in India."
+                    ]
+            },
+            {
+                    "tag": "connect",
+                    "patterns": [
+                            "Give me your social media accounts link",
+                            "Where can we connect",
+                            "How can i reach out to you?",
+                            "Is there any way we can connect"
+                    ],
+                    "responses": [
+                            "You can connect me on Linkedin or Github \n Linkedin - https://www.linkedin.com/in/mayank-bajaj/ \n Github - https://github.com/mayank8200",
+                            "You can visit https://mayank-bajaj.me"
+                    ]
+            },
+            {
+                    "tag": "movies",
+                    "patterns": [
+                            "Which is your favourite movie?",
+                            "Suggest me some movies",
+                            "Recommend movies"
+                    ],
+                    "responses": [
+                            "3 idiots",
+                            "Hera Pheri",
+                            "Lage Raho Munna Bhai",
+                            "OMG: Oh My God!",
+                            "PK",
+                            "Yeh Jawani hai Deewani",
+                            "Zindagi na Milegi Doobara",
+                            "Ludo"
+                    ]
+            },
+            {
+                    "tag": "about",
+                    "patterns": [
+                            "Who are you?",
+                            "Tell me about Yourself",
+                            "What is this?"
+                    ],
+                    "responses": [
+                            "Hi, I am User. Nice to meet you. I made this chatbot for fun and practice.",
+                            "Thanks for asking. I am Mayank Bajaj, coder by profession but ML enthusiast by passion."
+                    ]
+            },
+            
+            {
+                    "tag": "flu",
+                    "patterns": [
+                        "I have a fever",
+                        "I am experiencing coughing",
+                        "I have a sore throat",
+                        "I am feeling fatigued",
+                        "I have muscle or body aches",
+                        "I am having headaches"
+                    ],
+                    "responses": [
+                        "It sounds like you may have flu.",
+                        "Rest and stay hydrated. If symptoms persist, consult a healthcare professional."
+                    ]
+                },
+                {
+                    "tag": "cold",
+                    "patterns": [
+                        "I have a runny or stuffy nose",
+                        "I am sneezing frequently",
+                        "I am experiencing coughing",
+                        "I have watery eyes",
+                        "I have a sore throat"
+                    ],
+                    "responses": [
+                        "These symptoms indicate a common cold.",
+                        "Get plenty of rest and drink fluids. Consult a doctor if needed."
+                    ]
+                },
+                {
+                    "tag": "allergies",
+                    "patterns": [
+                        "I have itchy or watery eyes",
+                        "I am sneezing frequently",
+                        "I have a runny nose",
+                        "I am experiencing a rash",
+                        "I have shortness of breath"
+                    ],
+                    "responses": [
+                        "These symptoms may be due to allergies.",
+                        "Avoid allergens and consider antihistamines. Consult a doctor if symptoms persist."
+                    ]
+                },
+                {
+                    "tag": "COVID-19",
+                    "patterns": [
+                        "I have a fever",
+                        "I am experiencing coughing",
+                        "I have shortness of breath",
+                        "I have lost taste or smell",
+                        "I am feeling fatigued"
+                    ],
+                    "responses": [
+                        "These symptoms are associated with COVID-19.",
+                        "Isolate yourself and seek medical advice. Follow local health guidelines."
+                    ]
+                },
+                {
+                    "tag": "migraine",
+                    "patterns": [
+                        "I am experiencing a severe headache",
+                        "I am feeling nauseous",
+                        "I am sensitive to light",
+                        "I am having visual disturbances"
+                    ],
+                    "responses": [
+                        "These symptoms suggest a migraine.",
+                        "Rest in a quiet, dark room. If symptoms persist, consult a healthcare professional."
+                    ]
+                },
+                {
+                    "tag": "hypertension",
+                    "patterns": [
+                        "I have high blood pressure",
+                        "I am experiencing headaches",
+                        "I feel dizzy frequently",
+                        "I am experiencing blurred vision",
+                        "I have chest pain"
+                    ],
+                    "responses": [
+                        "These symptoms may indicate hypertension.",
+                        "Monitor your blood pressure regularly and consult a doctor for advice."
+                    ]
+                },
+                {
+                    "tag": "diabetes",
+                    "patterns": [
+                        "I feel thirsty all the time",
+                        "I have frequent urination",
+                        "I am experiencing unexplained weight loss",
+                        "I feel fatigued",
+                        "I have blurry vision"
+                    ],
+                    "responses": [
+                        "These symptoms may indicate diabetes.",
+                        "Monitor your blood sugar levels and consult a healthcare professional for further evaluation."
+                    ]
+                },
+                {
+                    "tag": "asthma",
+                    "patterns": [
+                        "I have difficulty breathing, especially at night",
+                        "I experience wheezing and chest tightness",
+                        "I cough frequently, especially during exercise",
+                        "I feel short of breath",
+                        "I use my inhaler more often than usual"
+                    ],
+                    "responses": [
+                        "These symptoms may be indicative of asthma.",
+                        "Avoid triggers, take prescribed medications, and consult a healthcare professional for personalized advice."
+                    ]
+                },
+                {
+                    "tag": "gastritis",
+                    "patterns": [
+                        "I have abdominal pain or discomfort",
+                        "I feel bloated after eating",
+                        "I experience nausea and vomiting",
+                        "I have a loss of appetite",
+                        "I notice blood in my vomit or stool"
+                    ],
+                    "responses": [
+                        "These symptoms may suggest gastritis.",
+                        "Avoid spicy foods, eat smaller meals, and consult a healthcare professional for further evaluation."
+                    ]
+                },
+                {
+                    "tag": "anxiety",
+                    "patterns": [
+                        "I feel restless and on edge",
+                        "I have difficulty concentrating",
+                        "I experience muscle tension",
+                        "I feel irritable",
+                        "I have trouble falling asleep"
+                    ],
+                    "responses": [
+                        "These symptoms may be associated with anxiety.",
+                        "Practice relaxation techniques, consider therapy, and consult a mental health professional for support."
+                    ]
+                },
+                {
+                    "tag": "anemia",
+                    "patterns": [
+                        "I feel fatigued and weak",
+                        "I am pale",
+                        "I experience shortness of breath",
+                        "I have difficulty concentrating",
+                        "I notice irregular heartbeats"
+                    ],
+                    "responses": [
+                        "These symptoms may indicate anemia.",
+                        "Include iron-rich foods in your diet, take supplements if advised, and consult a healthcare professional for further evaluation."
+                    ]
+                },
+                {
+                    "tag": "thyroid_disorder",
+                    "patterns": [
+                        "I have unexplained weight changes",
+                        "I feel fatigued and lethargic",
+                        "I experience hair loss",
+                        "I have changes in my menstrual cycle",
+                        "I feel excessively cold or hot"
+                    ],
+                    "responses": [
+                        "These symptoms may be related to a thyroid disorder.",
+                        "Consult a healthcare professional for thyroid function tests and personalized advice."
+                    ]
+                },
+                {
+                    "tag": "kidney_stones",
+                    "patterns": [
+                        "I have severe pain in my back or side",
+                        "I experience pain during urination",
+                        "I notice blood in my urine",
+                        "I feel the need to urinate frequently",
+                        "I have cloudy or foul-smelling urine"
+                    ],
+                    "responses": [
+                        "These symptoms may suggest kidney stones.",
+                        "Stay hydrated, manage pain with medications, and consult a healthcare professional for further evaluation."
+                    ]
+                },
+                {
+                    "tag": "depression",
+                    "patterns": [
+                        "I feel persistently sad or down",
+                        "I have lost interest in activities",
+                        "I experience changes in appetite and weight",
+                        "I have trouble sleeping or oversleeping",
+                        "I feel a sense of worthlessness"
+                    ],
+                    "responses": [
+                        "These symptoms may be indicative of depression.",
+                        "Reach out to a mental health professional for support, and consider therapy or medication if recommended."
+                    ]
+                },
+                {
+                    "tag": "acid_reflux",
+                    "patterns": [
+                        "I experience heartburn after eating",
+                        "I have a sour taste in my mouth",
+                        "I feel a burning sensation in my chest",
+                        "I have difficulty swallowing",
+                        "I often regurgitate food"
+                    ],
+                    "responses": [
+                        "These symptoms may suggest acid reflux.",
+                        "Avoid trigger foods, eat smaller meals, and consult a healthcare professional for further evaluation."
+                    ]
+                },
+                {
+                    "tag": "menopause",
+                    "patterns": [
+                        "I experience hot flashes",
+                        "I have night sweats",
+                        "I notice changes in my menstrual cycle",
+                        "I feel mood swings",
+                        "I have trouble sleeping"
+                    ],
+                    "responses": [
+                        "These symptoms may be related to menopause.",
+                        "Consult a healthcare professional for guidance on managing symptoms and hormonal changes."
+                    ]
+                },
+                {
+                    "tag": "concussion",
+                    "patterns": [
+                        "I had a blow to the head",
+                        "I experience headaches",
+                        "I have nausea and vomiting",
+                        "I feel dizzy or lightheaded",
+                        "I notice changes in vision"
+                    ],
+                    "responses": [
+                        "These symptoms may indicate a concussion.",
+                        "Rest and avoid activities that worsen symptoms. Seek medical attention for a thorough evaluation."
+                    ]
+                },
+                {
+                    "tag": "food_poisoning",
+                    "patterns": [
+                        "I have nausea and vomiting",
+                        "I have diarrhea",
+                        "I feel abdominal cramps",
+                        "I have a fever",
+                        "I feel weak and fatigued"
+                    ],
+                    "responses": [
+                        "These symptoms may indicate food poisoning.",
+                        "Stay hydrated, avoid solid foods for a while, and consult a healthcare professional if symptoms persist."
+                    ]
+                },
+                {
+                    "tag": "gluten_sensitivity",
+                    "patterns": [
+                        "I have digestive issues after eating gluten",
+                        "I experience bloating and gas",
+                        "I feel fatigued after consuming gluten",
+                        "I have joint pain",
+                        "I have skin problems after gluten consumption"
+                    ],
+                    "responses": [
+                        "These symptoms may suggest gluten sensitivity.",
+                        "Consider a gluten-free diet, monitor your symptoms, and consult a healthcare professional for guidance."
+                    ]
+                },
+                {
+                    "tag": "lactose_intolerance",
+                    "patterns": [
+                        "I experience digestive issues after consuming dairy",
+                        "I have bloating and gas after dairy consumption",
+                        "I feel nauseous after consuming milk",
+                        "I have diarrhea after consuming dairy",
+                        "I feel abdominal pain after dairy consumption"
+                    ],
+                    "responses": [
+                        "These symptoms may be indicative of lactose intolerance.",
+                        "Limit dairy intake, try lactose-free alternatives, and consult a healthcare professional for personalized advice."
+                    ]
+                },
+                {
+                    "tag": "plantar_fasciitis",
+                    "patterns": [
+                        "I have heel pain, especially in the morning",
+                        "I feel pain in the arch of my foot",
+                        "I experience pain after standing or sitting for a long time",
+                        "I notice stiffness and difficulty walking",
+                        "I have swelling in the heel area"
+                    ],
+                    "responses": [
+                        "These symptoms may suggest plantar fasciitis.",
+                        "Wear supportive footwear, perform stretching exercises, and consult a healthcare professional for further evaluation."
+                    ]
+                },
+                {
+                    "tag": "irritable_bowel_syndrome",
+                    "patterns": [
+                        "I experience abdominal pain or discomfort",
+                        "I have bloating and gas",
+                        "I notice changes in bowel habits",
+                        "I feel the urge to move bowels but with little success",
+                        "I have mucus in stools"
+                    ],
+                    "responses": [
+                        "These symptoms may be associated with irritable bowel syndrome (IBS).",
+                        "Maintain a fiber-rich diet, manage stress, and consult a healthcare professional for personalized advice."
+                    ]
+                },
+                {
+                    "tag": "mood_disorder",
+                    "patterns": [
+                        "I experience extreme mood swings",
+                        "I have episodes of elevated mood and energy",
+                        "I feel extremely sad and hopeless",
+                        "I have changes in sleep patterns",
+                        "I engage in impulsive behaviors"
+                    ],
+                    "responses": [
+                        "These symptoms may be indicative of a mood disorder.",
+                        "Consult a mental health professional for a thorough evaluation and appropriate treatment options."
+                    ]
+                },
+                {
+                    "tag": "shin_splints",
+                    "patterns": [
+                        "I feel pain along the inner edge of my shinbone",
+                        "I have pain during and after running",
+                        "I experience tenderness or soreness in the shin area",
+                        "I have swelling in the lower leg",
+                        "I notice pain when flexing my foot"
+                    ],
+                    "responses": [
+                        "These symptoms may suggest shin splints.",
+                        "Rest, ice the affected area, and perform stretching exercises. Consult a healthcare professional if symptoms persist."
+                    ]
+                },
+                {
+                    "tag": "vertigo",
+                    "patterns": [
+                        "I feel a spinning sensation",
+                        "I experience dizziness and lightheadedness",
+                        "I have nausea and vomiting",
+                        "I notice a loss of balance",
+                        "I feel unsteady, especially when moving my head"
+                    ],
+                    "responses": [
+                        "These symptoms may indicate vertigo.",
+                        "Avoid sudden movements, stay hydrated, and consult a healthcare professional for further evaluation."
+                    ]
+                },
+                {
+                    "tag": "gout",
+                    "patterns": [
+                        "I have sudden and severe joint pain",
+                        "I experience swelling and redness in joints",
+                        "I feel tenderness in joints",
+                        "I have limited range of motion in affected joints",
+                        "I notice lumps under the skin around joints"
+                    ],
+                    "responses": [
+                        "These symptoms may suggest gout.",
+                        "Stay hydrated, avoid purine-rich foods, and consult a healthcare professional for personalized advice."
+                    ]
+                },
+                {
+                    "tag": "sciatica",
+                    "patterns": [
+                        "I feel pain radiating from my lower back to the buttock and down the leg",
+                        "I experience tingling or numbness in the leg",
+                        "I notice weakness in the leg or foot",
+                        "I have difficulty standing or sitting for long periods",
+                        "I feel a sharp pain when walking or standing"
+                    ],
+                    "responses": [
+                        "These symptoms may be indicative of sciatica.",
+                        "Apply heat or ice, perform gentle stretches, and consult a healthcare professional for further evaluation."
+                    ]
+                },
+                {
+                    "tag": "sleep_apnea",
+                    "patterns": [
+                        "I snore loudly during sleep",
+                        "I experience pauses in breathing during sleep",
+                        "I feel tired and drowsy during the day",
+                        "I have difficulty staying asleep",
+                        "I wake up with a headache"
+                    ],
+                    "responses": [
+                        "These symptoms may suggest sleep apnea.",
+                        "Consider a sleep study, maintain a consistent sleep schedule, and consult a healthcare professional for further evaluation."
+                    ]
+                },
+                    {
+                        "tag": "carpal_tunnel_syndrome",
+                        "patterns": [
+                            "I feel numbness and tingling in my hand and fingers",
+                            "I have pain or discomfort in the wrist and hand",
+                            "I notice weakness in the hand",
+                            "I experience worsening symptoms at night",
+                            "I have difficulty gripping objects"
+                        ],
+                        "responses": [
+                            "These symptoms may be indicative of carpal tunnel syndrome.",
+                            "Take frequent breaks, use ergonomic tools, and consult a healthcare professional for personalized advice."
+                        ]
+                    },
+                    {
+                        "tag": "rosacea",
+                        "patterns": [
+                            "I have redness and flushing on my face",
+                            "I notice visible blood vessels on my face",
+                            "I experience bumps and pimples on my face",
+                            "I feel burning or stinging sensations",
+                            "My skin is sensitive and easily irritated"
+                        ],
+                        "responses": [
+                            "These symptoms may suggest rosacea.",
+                            "Avoid triggers, use gentle skincare products, and consult a dermatologist for personalized skincare recommendations."
+                        ]
+                    },
+                    {
+                        "tag": "plantar_warts",
+                        "patterns": [
+                            "I have small, fleshy growths on the soles of my feet",
+                            "I notice black dots in the center of the warts",
+                            "I experience pain or tenderness when walking",
+                            "I see clusters of warts forming",
+                            "I have rough or grainy growths on my feet"
+                        ],
+                        "responses": [
+                            "These symptoms may indicate plantar warts.",
+                            "Use over-the-counter treatments, keep feet dry, and consult a healthcare professional for persistent warts."
+                        ]
+                    },
+                    {
+                        "tag": "tmj_disorder",
+                        "patterns": [
+                            "I experience jaw pain or tenderness",
+                            "I have difficulty chewing or biting",
+                            "I notice a clicking or popping sound in the jaw",
+                            "I feel earaches or ringing in the ears",
+                            "I have headaches, especially in the temple area"
+                        ],
+                        "responses": [
+                            "These symptoms may be associated with temporomandibular joint (TMJ) disorder.",
+                            "Practice jaw exercises, avoid hard foods, and consult a dentist or healthcare professional for further evaluation."
+                        ]
+                    },
+                    {
+                        "tag": "fibromyalgia",
+                        "patterns": [
+                            "I experience widespread pain and tenderness",
+                            "I have fatigue and difficulty sleeping",
+                            "I notice stiffness in the muscles",
+                            "I have headaches and migraines",
+                            "I feel cognitive difficulties, often referred to as 'fibro fog'"
+                        ],
+                        "responses": [
+                            "These symptoms may suggest fibromyalgia.",
+                            "Manage stress, engage in gentle exercises, and consult a healthcare professional for a comprehensive evaluation."
+                        ]
+                    },
+                    {
+                        "tag": "shingles",
+                        "patterns": [
+                            "I have a painful rash with blisters",
+                            "I notice red patches on the skin",
+                            "I experience burning or shooting pain",
+                            "I feel itching and tingling",
+                            "I have flu-like symptoms"
+                        ],
+                        "responses": [
+                            "These symptoms may indicate shingles.",
+                            "Seek medical attention promptly, as antiviral medications are most effective when started early."
+                        ]
+                    },
+                    {
+                        "tag": "eczema",
+                        "patterns": [
+                            "I have red, inflamed, and itchy skin",
+                            "I notice dry and scaly patches",
+                            "I experience oozing or crusting of the skin",
+                            "I feel a burning or stinging sensation",
+                            "My skin is sensitive to certain triggers"
+                        ],
+                        "responses": [
+                            "These symptoms may suggest eczema.",
+                            "Use gentle skincare, moisturize regularly, and consult a dermatologist for personalized treatment options."
+                        ]
+                    },
+                    {
+                        "tag": "osteoporosis",
+                        "patterns": [
+                            "I experience bone pain or tenderness",
+                            "I have fractures, especially in the spine or hip",
+                            "I notice a loss of height over time",
+                            "I have a stooped posture",
+                            "I am at risk due to age or family history"
+                        ],
+                        "responses": [
+                            "These symptoms may indicate osteoporosis.",
+                            "Ensure adequate calcium and vitamin D intake, engage in weight-bearing exercises, and consult a healthcare professional for bone density testing."
+                        ]
+                    },
+                    {
+                        "tag": "glaucoma",
+                        "patterns": [
+                            "I have blurred or hazy vision",
+                            "I notice rainbow-colored halos around lights",
+                            "I experience severe eye pain",
+                            "I have nausea and vomiting",
+                            "I see sudden changes in vision"
+                        ],
+                        "responses": [
+                            "These symptoms may suggest glaucoma.",
+                            "Regular eye exams are crucial. Consult an eye care professional for evaluation and management of intraocular pressure."
+                        ]
+                    }
+        ]
+    }                
+            
+
+                        
