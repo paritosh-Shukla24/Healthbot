@@ -1,0 +1,1304 @@
+{
+    "intents": [
+            {
+                    "tag": "greeting",
+                    "patterns": [
+                            "Hi",
+                            "How are you",
+                            "Is anyone there?",
+                            "Hello",
+                            "Good day"
+                    ],
+                    "responses": [
+                            "Hello, thanks for visiting",
+                            "Good to see you again",
+                            "Hi there, how can I help?"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "goodbye",
+                    "patterns": [
+                            "Bye",
+                            "See you later",
+                            "Goodbye"
+                    ],
+                    "responses": [
+                            "See you later, thanks for visiting",
+                            "Have a nice day",
+                            "Bye! Come back again soon."
+                    ]
+            },
+            {
+                    "tag": "thanks",
+                    "patterns": [
+                            "Thanks",
+                            "Thank you",
+                            "That's helpful"
+                    ],
+                    "responses": [
+                            "Happy to help!",
+                            "Any time!",
+                            "My pleasure"
+                    ]
+            },
+            {
+                    "tag": "chatbot",
+                    "patterns": [
+                            "Who built this chatbot?",
+                            "Tell me about Chatbot",
+                            "What is this chatbot name?"
+                    ],
+                    "responses": [
+                            "Hi, I am Chatbot designed by Mayank.",
+                            "Thanks for asking. I am designed by Mayank Bajaj.",
+                            "I am a chatbot."
+                    ]
+            },
+            
+            {
+                    "tag": "about",
+                    "patterns": [
+                            "Who are you?",
+                            "Tell me about Yourself",
+                            "What is this?"
+                    ],
+                    "responses": [
+                            "Hi, I am User. Nice to meet you. I made this chatbot for fun and practice.",
+                            "Thanks for asking. I am Mayank Bajaj, coder by profession but ML enthusiast by passion."
+                    ]
+            },
+    {
+        "tag": "flu",
+        "patterns": [
+            "I have a fever",
+            "I am experiencing coughing",
+            "I have a sore throat",
+            "I am feeling fatigued",
+            "I have muscle or body aches",
+            "I am having headaches"
+        ],
+        "responses": [
+            "It sounds like you may have flu.",
+            "Rest and stay hydrated. If symptoms persist, consult a healthcare professional.",
+            "Make sure to get plenty of rest and stay hydrated to help your body recover.",
+            "Consider taking over-the-counter medication to alleviate symptoms. If unsure, consult with a healthcare professional.",
+            "Warm soup and hot tea can provide comfort and relief during a flu.",
+            "Use a humidifier to ease respiratory discomfort and congestion.",
+            "If your symptoms worsen, consult a doctor for proper medical advice.",
+            "Taking a warm bath may help soothe muscle aches and pains.",
+            "Gargle with warm saltwater to alleviate throat soreness.",
+            "Ensure good ventilation in your living space to prevent the spread of flu viruses.",
+            "Stay isolated to prevent spreading the flu to others.",
+            "Hydrate with clear fluids like water, herbal tea, and broths.",
+            "Consider getting a flu shot next season for prevention.",
+            "Resting is crucial, listen to your body and allow time for recovery.",
+            "Avoid close contact with others to prevent transmission.",
+            "Using a mask can help prevent the spread of flu to others.",
+            "Wash your hands frequently with soap and water to reduce the risk of infection.",
+            "Eating a nutritious diet can support your immune system during recovery.",
+            "Monitor your temperature regularly to track your progress.",
+            "If you develop severe symptoms, seek emergency medical attention."
+        ]
+    },
+    {
+        "tag": "cold",
+        "patterns": [
+            "I have a runny or stuffy nose",
+            "I am sneezing frequently",
+            "I am experiencing coughing",
+            "I have watery eyes",
+            "I have a sore throat"
+        ],
+        "responses": [
+            "These symptoms indicate a common cold.",
+            "Get plenty of rest and drink fluids. Consult a doctor if needed.",
+            "Using a humidifier and saline nasal drops can help relieve nasal congestion.",
+            "Warm beverages and throat lozenges can soothe a sore throat. If symptoms persist, consult with a doctor.",
+            "Stay warm and rest to support your body's immune response.",
+            "Over-the-counter cold medications may provide relief. Check with a pharmacist if unsure.",
+            "A balanced diet rich in vitamins and minerals can aid in recovery.",
+            "Avoid smoking and exposure to secondhand smoke during a cold.",
+            "Gentle exercises like walking may help alleviate symptoms.",
+            "If symptoms persist for more than a week, consult a healthcare professional.",
+            "Stay well-hydrated with water, herbal teas, and clear broths.",
+            "Consider using mentholated ointments for nasal congestion relief.",
+            "Wash your hands frequently to prevent the spread of the cold virus.",
+            "Maintain good respiratory hygiene by covering your mouth and nose when sneezing or coughing.",
+            "Get plenty of sleep to support the body's healing process.",
+            "Consider over-the-counter pain relievers for relieving aches and pains.",
+            "Increase vitamin C intake through fruits and vegetables for immune support.",
+            "Use a saline nasal rinse to help clear nasal passages.",
+            "Avoid close contact with others to prevent the spread of the cold.",
+            "Consider wearing a mask in crowded places to protect others and yourself."
+        ]
+    },
+    {
+        "tag": "allergies",
+        "patterns": [
+            "I have itchy or watery eyes",
+            "I am sneezing frequently",
+            "I have a runny nose",
+            "I am experiencing a rash",
+            "I have shortness of breath"
+        ],
+        "responses": [
+            "These symptoms may be due to allergies.",
+            "Avoid allergens and consider antihistamines. Consult a doctor if symptoms persist.",
+            "Identifying and avoiding specific allergens is key to managing allergy symptoms.",
+            "Consider using antihistamine medications under the guidance of a healthcare professional.",
+            "Keep windows closed during high pollen seasons to minimize exposure.",
+            "Wearing sunglasses can protect your eyes from airborne allergens.",
+            "Regular cleaning of living spaces helps reduce indoor allergens.",
+            "Consider allergy testing for a more targeted approach to managing allergies.",
+            "Nasal irrigation with saline solution can help alleviate allergy symptoms.",
+            "Consult an allergist for personalized advice on managing your specific allergies.",
+            "Change clothes and shower after spending time outdoors during high pollen periods.",
+            "Consider using air purifiers to reduce indoor allergens.",
+            "Wear a mask when doing outdoor activities to reduce inhalation of allergens.",
+            "Avoid pets or animals that trigger allergic reactions.",
+            "Monitor pollen forecasts and plan outdoor activities accordingly.",
+            "Use hypoallergenic bedding to reduce exposure to dust mites.",
+            "Consider wearing a wide-brimmed hat and sunglasses when outdoors.",
+            "Apply barrier creams to the skin to protect against contact with allergens.",
+            "Limit outdoor activities during peak pollen times, typically in the morning and early evening.",
+            "Consider alternative landscaping options to minimize pollen exposure at home."
+        ]
+    },
+    {
+        "tag": "COVID-19",
+        "patterns": [
+            "I have a fever",
+            "I am experiencing coughing",
+            "I have shortness of breath",
+            "I have lost taste or smell",
+            "I am feeling fatigued"
+        ],
+        "responses": [
+            "These symptoms are associated with COVID-19.",
+            "Isolate yourself and seek medical advice. Follow local health guidelines.",
+            "Notify close contacts and follow local health authorities' guidelines for testing and isolation.",
+            "Seek medical attention promptly, especially if you have underlying health conditions.",
+            "Stay informed about the latest updates from reliable health sources.",
+            "Practice good hand hygiene by washing hands frequently with soap and water.",
+            "Wear a mask to protect yourself and others in crowded or public places.",
+            "Maintain physical distance from individuals outside your household.",
+            "Follow quarantine guidelines to prevent the spread of the virus.",
+            "Stay well-hydrated and get plenty of rest for a quicker recovery if infected.",
+            "Disinfect commonly-touched surfaces regularly to reduce the risk of transmission.",
+            "Avoid touching your face, especially your eyes, nose, and mouth.",
+            "If you have symptoms, avoid sharing personal items with others.",
+            "Keep a record of your symptoms and any potential exposures for efficient contact tracing.",
+            "Follow respiratory hygiene by covering your mouth and nose when coughing or sneezing.",
+            "Be cautious of false information and rely on reputable sources for COVID-19 updates.",
+            "Participate in contactless activities and use online services whenever possible.",
+            "Monitor for emergency warning signs such as difficulty breathing and persistent chest pain.",
+            "If you receive a COVID-19 vaccine, continue to follow public health guidelines for protection.",
+            "Stay connected with loved ones virtually to maintain social support during isolation."
+        ]
+    },
+    {
+        "tag": "migraine",
+        "patterns": [
+            "I am experiencing a severe headache",
+            "I am feeling nauseous",
+            "I am sensitive to light",
+            "I am having visual disturbances"
+        ],
+        "responses": [
+            "These symptoms suggest a migraine.",
+            "Rest in a quiet, dark room. If symptoms persist, consult a healthcare professional.",
+            "Dark chocolate and certain herbal teas may help alleviate migraine symptoms.",
+            "Keep a headache diary to identify triggers and patterns. Consult with a neurologist for personalized treatment.",
+            "Applying a cold or warm compress to the head may provide relief during a migraine.",
+            "Stay well-hydrated to help prevent migraine attacks.",
+            "Regular exercise and stress management can contribute to migraine prevention.",
+            "Consider prescription medications for migraines under the guidance of a healthcare provider.",
+            "Avoiding certain food triggers may help reduce the frequency of migraines.",
+            "Practice deep-breathing exercises to manage stress, a common migraine trigger.",
+            "Use blackout curtains to create a dark environment during migraine attacks.",
+            "Avoid strong odors and perfumes that may trigger migraines.",
+            "Consider acupuncture or biofeedback as complementary therapies for migraine management.",
+            "Stay consistent with sleep patterns to avoid disruptions that may trigger migraines.",
+            "Limit caffeine intake, as both excessive and abrupt withdrawal can trigger migraines.",
+            "Discuss preventive medications with a healthcare provider for chronic migraine management.",
+            "Identify and address potential stressors that may contribute to migraine episodes.",
+            "Incorporate relaxation techniques, such as meditation or yoga, into your routine.",
+            "Explore cognitive-behavioral therapy (CBT) as a tool for managing stress and reducing migraines.",
+            "Consider participating in support groups for individuals with migraines to share experiences and coping strategies."
+        ]
+    },
+    {
+        "tag": "hypertension",
+        "patterns": [
+            "I have high blood pressure",
+            "I am experiencing headaches",
+            "I feel dizzy frequently",
+            "I am experiencing blurred vision",
+            "I have chest pain"
+        ],
+        "responses": [
+            "These symptoms may indicate hypertension.",
+            "Monitor your blood pressure regularly and consult a doctor for advice.",
+            "A low-sodium diet and regular exercise can contribute to better blood pressure control.",
+            "Monitor your blood pressure at home and share the results with your healthcare provider during check-ups.",
+            "Limiting caffeine intake can help manage blood pressure levels.",
+            "Maintain a healthy weight through a balanced diet and regular physical activity.",
+            "Avoid excessive alcohol consumption to support blood pressure management.",
+            "Deep-breathing exercises and relaxation techniques may help reduce stress and lower blood pressure.",
+            "Consider medications prescribed by a healthcare professional for hypertension management.",
+            "Regular check-ups with a healthcare provider are essential for monitoring blood pressure and overall cardiovascular health.",
+            "Include potassium-rich foods in your diet, such as bananas and leafy greens, to support blood pressure regulation.",
+            "Engage in moderate-intensity aerobic exercise, such as brisk walking, for at least 150 minutes per week.",
+            "Reduce stress through activities like meditation, yoga, or deep-breathing exercises.",
+            "Limit processed and high-sugar foods in your diet to promote overall cardiovascular health.",
+            "Consider adopting the Dietary Approaches to Stop Hypertension (DASH) eating plan.",
+            "Monitor salt intake and choose low-sodium alternatives for better blood pressure management.",
+            "Ensure adequate sleep, aiming for 7-9 hours per night, to support overall health and blood pressure control.",
+            "Quit smoking if applicable, as smoking can contribute to elevated blood pressure.",
+            "Stay hydrated with water and herbal teas, avoiding excessive consumption of caffeinated and sugary beverages.",
+            "Educate yourself about hypertension and its management to make informed lifestyle choices."
+        ]
+    },
+    {
+        "tag": "diabetes",
+        "patterns": [
+            "I feel thirsty all the time",
+            "I have frequent urination",
+            "I am experiencing unexplained weight loss",
+            "I feel fatigued",
+            "I have blurry vision"
+        ],
+        "responses": [
+            "These symptoms may indicate diabetes.",
+            "Monitor your blood sugar levels and consult a healthcare professional for further evaluation.",
+            "Adopting a balanced diet and regular physical activity is crucial for managing diabetes.",
+            "Work closely with a healthcare team to create a personalized diabetes management plan.",
+            "Regular blood glucose monitoring is essential for diabetes management.",
+            "Limiting the intake of sugary foods and beverages helps maintain stable blood sugar levels.",
+            "Incorporate high-fiber foods into your diet to support blood sugar control.",
+            "Consistent meal timing and portion control are important aspects of diabetes management.",
+            "Taking prescribed medications or insulin as directed by a healthcare provider is crucial for diabetes control.",
+            "Attend diabetes education programs to enhance your understanding of the condition and its management.",
+            "Stay hydrated with water, as adequate hydration supports overall health and can help manage blood sugar levels.",
+            "Engage in regular physical activity, including both aerobic exercise and strength training, for improved glucose control.",
+            "Monitor carbohydrate intake and choose complex carbohydrates over simple sugars.",
+            "Limit alcohol consumption, as it can affect blood sugar levels and interact with diabetes medications.",
+            "Include a variety of colorful fruits and vegetables in your diet for their nutritional benefits.",
+            "Regularly check your feet for any cuts, sores, or signs of infection, as diabetes can affect foot health.",
+            "Establish a routine for regular eye exams to monitor for diabetes-related eye complications.",
+            "Be aware of stress management techniques, as stress can impact blood sugar levels.",
+            "Ensure regular dental check-ups, as individuals with diabetes may be at a higher risk of gum disease.",
+            "Communicate openly with your healthcare team about any challenges or concerns related to diabetes management."
+        ]
+    },
+    
+        {
+            "tag": "asthma",
+            "patterns": [
+                "I have difficulty breathing, especially at night",
+                "I experience wheezing and chest tightness",
+                "I cough frequently, especially during exercise",
+                "I feel short of breath",
+                "I use my inhaler more often than usual"
+            ],
+            "responses": [
+                "These symptoms may be indicative of asthma.",
+                "Avoid triggers, take prescribed medications, and consult a healthcare professional for personalized advice.",
+                "Keep a record of your symptoms and peak flow measurements to better manage asthma.",
+                "Regular exercise, when approved by your healthcare provider, can improve lung function in asthma.",
+                "Ensure proper use of your inhaler by following the instructions provided by your healthcare professional.",
+                "Consider allergy testing to identify specific triggers contributing to asthma symptoms.",
+                "Participate in asthma education programs to enhance your understanding of the condition.",
+                "Monitor air quality and avoid exposure to pollutants and irritants that can worsen asthma symptoms.",
+                "Create an asthma action plan in collaboration with your healthcare provider for effective management.",
+                "Learn and practice deep-breathing exercises to improve lung capacity and control asthma symptoms.",
+                "Ensure that those around you, including caregivers and family members, are aware of your asthma action plan.",
+                "Keep rescue medications, such as your inhaler, readily accessible in case of an asthma attack.",
+                "Use air purifiers with HEPA filters to reduce airborne allergens in your living space.",
+                "Consider carrying a medical ID indicating your asthma condition, especially during travel.",
+                "Avoid smoking and exposure to secondhand smoke, as it can worsen asthma symptoms.",
+                "Engage in regular check-ups with your asthma specialist to monitor and adjust your treatment plan.",
+                "Stay well-hydrated to help maintain optimal respiratory function.",
+                "Educate yourself about common asthma triggers and take proactive measures to avoid them.",
+                "Seek prompt medical attention if you experience a sudden worsening of asthma symptoms."
+            ]
+        },
+        {
+            "tag": "gastritis",
+            "patterns": [
+                "I have abdominal pain or discomfort",
+                "I feel bloated after eating",
+                "I experience nausea and vomiting",
+                "I have a loss of appetite",
+                "I notice blood in my vomit or stool"
+            ],
+            "responses": [
+                "These symptoms may suggest gastritis.",
+                "Avoid spicy foods, eat smaller meals, and consult a healthcare professional for further evaluation.",
+                "Maintain a food diary to identify and eliminate foods that may trigger gastritis symptoms.",
+                "Consider consuming smaller, more frequent meals to prevent excessive stomach acid production.",
+                "Practice stress-reducing techniques such as meditation and deep breathing to manage gastritis.",
+                "Avoid lying down immediately after meals to prevent gastric reflux and irritation.",
+                "Include probiotics in your diet to promote a healthy balance of gut bacteria.",
+                "Limit or avoid alcohol intake, as it can irritate the stomach lining.",
+                "Take prescribed medications, such as proton pump inhibitors, as recommended by your healthcare provider.",
+                "Consult with a registered dietitian for personalized dietary recommendations for gastritis.",
+                "Avoid NSAIDs (nonsteroidal anti-inflammatory drugs) as they can contribute to gastritis.",
+                "Stay well-hydrated with water and avoid caffeinated and acidic beverages.",
+                "Incorporate high-fiber foods into your diet to support digestive health.",
+                "Chew food thoroughly to aid digestion and reduce strain on the digestive system.",
+                "Maintain a healthy weight to reduce pressure on the stomach and minimize gastritis symptoms.",
+                "Monitor for triggers such as certain foods, stress, and late-night eating.",
+                "Engage in light physical activity, such as walking, to promote digestion and overall gastrointestinal health.",
+                "Avoid smoking, as it can contribute to the development and worsening of gastritis.",
+                "Attend regular follow-up appointments with your gastroenterologist for ongoing management.",
+                "Consider lifestyle modifications to manage and reduce stress, a common contributor to gastritis."
+            ]
+        },
+        {
+            "tag": "anxiety",
+            "patterns": [
+                "I feel restless and on edge",
+                "I have difficulty concentrating",
+                "I experience muscle tension",
+                "I feel irritable",
+                "I have trouble falling asleep"
+            ],
+            "responses": [
+                "These symptoms may be associated with anxiety.",
+                "Practice relaxation techniques, consider therapy, and consult a mental health professional for support.",
+                "Establish a consistent sleep routine to improve sleep quality and reduce anxiety.",
+                "Engage in regular physical activity, such as walking or yoga, to alleviate anxiety symptoms.",
+                "Consider mindfulness meditation to promote a sense of calm and reduce anxious thoughts.",
+                "Limit caffeine intake, as excessive caffeine consumption can contribute to anxiety.",
+                "Connect with supportive friends and family members to share your feelings and experiences.",
+                "Explore cognitive-behavioral therapy (CBT) techniques to manage anxious thought patterns.",
+                "Create a calming environment at home with soothing music, dim lighting, and comfortable furnishings.",
+                "Practice deep-breathing exercises to activate the body's relaxation response.",
+                "Consider joining a support group or participating in group therapy to connect with others experiencing similar challenges.",
+                "Avoid excessive alcohol consumption, as it can exacerbate anxiety symptoms.",
+                "Set realistic goals and prioritize tasks to avoid feeling overwhelmed.",
+                "Journaling can be a helpful tool for expressing and processing anxious thoughts and emotions.",
+                "Incorporate stress-reducing activities into your daily routine, such as hobbies or nature walks.",
+                "Educate yourself about anxiety disorders and seek information from reputable mental health sources.",
+                "Engage in activities that bring joy and relaxation, such as reading, gardening, or spending time in nature.",
+                "Consider consulting a nutritionist for guidance on a balanced diet that supports mental health.",
+                "Practice assertiveness skills to communicate effectively and manage stressors in various life domains.",
+                "If needed, discuss with a mental health professional the option of medication for anxiety management."
+            ]
+        },
+        {
+            "tag": "anemia",
+            "patterns": [
+                "I feel fatigued and weak",
+                "I am pale",
+                "I experience shortness of breath",
+                "I have difficulty concentrating",
+                "I notice irregular heartbeats"
+            ],
+            "responses": [
+                "These symptoms may indicate anemia.",
+                "Include iron-rich foods in your diet, take supplements if advised, and consult a healthcare professional for further evaluation.",
+                "Consume vitamin C-rich foods alongside iron-rich foods to enhance iron absorption.",
+                "Consider incorporating lean sources of protein, such as poultry and fish, into your diet for optimal iron intake.",
+                "Monitor your blood levels regularly and work with your healthcare provider to adjust iron supplementation if needed.",
+                "Stay well-hydrated to support overall health and circulatory function.",
+                "Include sources of vitamin B12, such as lean meats and dairy, in your diet for improved red blood cell production.",
+                "Avoid excessive consumption of calcium-rich foods and supplements during iron-rich meals, as it may hinder absorption.",
+                "Explore cooking techniques that enhance iron absorption, such as using cast-iron cookware.",
+                "Participate in light physical activities, such as walking, to improve overall circulation.",
+                "Consider donating blood to reduce iron overload, especially in individuals with hereditary hemochromatosis.",
+                "Prioritize sleep to support overall well-being and energy levels.",
+                "Include folate-rich foods, such as leafy greens and legumes, in your diet to support red blood cell formation.",
+                "Consult with your healthcare provider before making significant dietary changes or introducing supplements.",
+                "Educate yourself about the different types of anemia and their underlying causes.",
+                "Incorporate stress management techniques, such as meditation or yoga, into your daily routine.",
+                "Discuss any concerns about anemia symptoms with your healthcare provider for appropriate evaluation and guidance.",
+                "Consider seeking counseling or support groups to cope with the emotional impact of chronic anemia.",
+                "Maintain a well-balanced diet that includes a variety of nutrient-dense foods to support overall health.",
+                "Be proactive in managing chronic conditions that may contribute to anemia, such as inflammatory disorders or chronic kidney disease."
+            ]
+        },
+        {
+            "tag": "thyroid_disorder",
+            "patterns": [
+                "I have unexplained weight changes",
+                "I feel fatigued and lethargic",
+                "I experience hair loss",
+                "I have changes in my menstrual cycle",
+                "I feel excessively cold or hot"
+            ],
+            "responses": [
+                "These symptoms may be related to a thyroid disorder.",
+                "Consult a healthcare professional for thyroid function tests and personalized advice.",
+                "Thyroid disorders are manageable with medication and regular monitoring. Work closely with your healthcare provider.",
+                "Incorporate iodine-rich foods like seaweed and dairy into your diet to support thyroid function.",
+                "Avoid excessive consumption of goitrogenic foods, such as raw cruciferous vegetables, which may impact thyroid function.",
+                "Work with your healthcare provider to find the optimal medication dosage for thyroid hormone replacement therapy.",
+                "Ensure regular follow-up appointments to monitor thyroid hormone levels and adjust medication as needed.",
+                "Include selenium-rich foods, such as Brazil nuts and sunflower seeds, to support thyroid health.",
+                "Thyroid disorders may impact fertility; discuss family planning with your healthcare provider if relevant.",
+                "Educate yourself about hyperthyroidism and hypothyroidism to better understand your condition.",
+                "Thyroid disorders may require lifelong management; adhere to prescribed medication and follow-up appointments.",
+                "Monitor for any changes in energy levels, weight, and mood, and report them to your healthcare provider.",
+                "Be aware of potential interactions between thyroid medications and other medications or supplements.",
+                "Incorporate stress-reduction techniques, such as meditation, to support overall thyroid health.",
+                "Discuss symptoms and treatment options openly with your healthcare provider for personalized care.",
+                "Thyroid disorders may impact mental health; seek support from mental health professionals if needed.",
+                "Stay informed about advancements in thyroid disorder management and treatment options.",
+                "Maintain a balanced diet with a focus on nutrient-dense foods to support overall well-being.",
+                "Consider joining thyroid support groups or online communities to connect with others facing similar challenges.",
+                "Educate yourself about the potential long-term effects of thyroid disorders and how to mitigate them through lifestyle choices."
+            ]
+        },
+        {
+            "tag": "kidney_stones",
+            "patterns": [
+                "I have severe pain in my back or side",
+                "I experience pain during urination",
+                "I notice blood in my urine",
+                "I feel the need to urinate frequently",
+                "I have cloudy or foul-smelling urine"
+            ],
+            "responses": [
+                "These symptoms may suggest kidney stones.",
+                "Stay hydrated, manage pain with medications, and consult a healthcare professional for further evaluation.",
+                "Increase your fluid intake, especially water, to help prevent the formation of kidney stones.",
+                "Limit consumption of foods high in oxalates, such as beets, nuts, and chocolate, to reduce stone formation.",
+                "Consult a registered dietitian for personalized dietary recommendations to prevent recurrent kidney stones.",
+                "Certain medications may contribute to kidney stone formation; discuss this with your healthcare provider.",
+                "If you suspect kidney stones, avoid high-oxalate foods and maintain a low-salt diet.",
+                "Incorporate citric acid-rich foods, like lemons and oranges, into your diet to prevent certain types of kidney stones.",
+                "Maintain a healthy weight through a balanced diet and regular physical activity to reduce the risk of kidney stones.",
+                "Consider dietary changes, such as reducing animal protein intake, to prevent uric acid stones.",
+                "Regularly monitor your urine for changes in color, odor, or clarity, and report any abnormalities to your healthcare provider.",
+                "Limit caffeine and alcohol intake, as excessive consumption may contribute to kidney stone formation.",
+                "Discuss calcium intake with your healthcare provider to determine appropriate levels for kidney stone prevention.",
+                "Certain medical conditions, such as gout, may increase the risk of specific types of kidney stones; address these conditions with your healthcare provider.",
+                "Be aware of the signs of dehydration and take prompt action to rehydrate if necessary.",
+                "Include foods rich in potassium, such as bananas and potatoes, to support kidney health.",
+                "If you have a history of kidney stones, work closely with your healthcare provider to prevent recurrence.",
+                "Stay informed about the latest research on kidney stone prevention and treatment options.",
+                "Educate yourself about the different types of kidney stones and their causes to make informed lifestyle choices.",
+                "Incorporate stress-reducing activities, such as yoga or meditation, into your routine to support overall kidney health."
+            ]
+        },
+        {
+            "tag": "depression",
+            "patterns": [
+                "I feel persistently sad or down",
+                "I have lost interest in activities",
+                "I experience changes in appetite and weight",
+                "I have trouble sleeping or oversleeping",
+                "I feel a sense of worthlessness"
+            ],
+            "responses": [
+                "These symptoms may be indicative of depression.",
+                "Reach out to a mental health professional for support, and consider therapy or medication if recommended.",
+                "Engage in activities that bring you joy, even in small ways, to lift your mood.",
+                "Share your feelings with trusted friends or family members for emotional support.",
+                "Consider joining a support group to connect with others facing similar challenges.",
+                "Establish a consistent sleep routine to improve overall well-being.",
+                "Practice mindfulness meditation to help manage negative thoughts and emotions.",
+                "Set realistic goals and celebrate small achievements to build a sense of accomplishment.",
+                "Exercise regularly, as physical activity has been shown to positively impact mood.",
+                "Consider journaling as a tool for self-reflection and expressing your thoughts and emotions.",
+                "Explore creative outlets, such as art or music, as a form of self-expression and stress relief.",
+                "Educate yourself about depression and available treatment options.",
+                "Maintain a balanced diet with a focus on nutrient-dense foods that support mental health.",
+                "Consider medication as recommended by a mental health professional, if appropriate.",
+                "Connect with nature by spending time outdoors, which can positively impact mental well-being.",
+                "Seek professional help if you experience thoughts of self-harm or suicide.",
+                "Engage in activities that promote relaxation, such as deep breathing exercises or warm baths.",
+                "Identify and challenge negative thought patterns through cognitive-behavioral therapy (CBT).",
+                "Establish a strong support system that includes friends, family, and mental health professionals.",
+                "Be patient with yourself, and recognize that recovery from depression is a gradual process."
+            ]
+        },
+        {
+            "tag": "acid_reflux",
+            "patterns": [
+                "I experience heartburn after eating",
+                "I have a sour taste in my mouth",
+                "I feel a burning sensation in my chest",
+                "I have difficulty swallowing",
+                "I often regurgitate food"
+            ],
+            "responses": [
+                "These symptoms may suggest acid reflux.",
+                "Avoid trigger foods, eat smaller meals, and consult a healthcare professional for further evaluation.",
+                "Maintain an upright posture during and after meals to minimize acid reflux symptoms.",
+                "Consider dietary changes, such as reducing spicy and acidic foods, to alleviate symptoms.",
+                "Chew food thoroughly and eat slowly to aid digestion and reduce reflux.",
+                "Avoid lying down for at least two hours after eating to prevent acid reflux.",
+                "Consider elevating the head of your bed to reduce nighttime acid reflux.",
+                "Limit caffeine and alcohol intake, as they can contribute to acid reflux symptoms.",
+                "Use over-the-counter antacids for short-term relief of mild acid reflux symptoms.",
+                "Stay well-hydrated with water, and avoid excessive consumption of carbonated beverages.",
+                "Identify and manage stressors in your life, as stress can exacerbate acid reflux.",
+                "Consult with a registered dietitian for personalized dietary recommendations for acid reflux.",
+                "Incorporate fiber-rich foods into your diet to support digestive health and prevent constipation.",
+                "Avoid tight clothing, especially around the waist, to reduce pressure on the stomach.",
+                "Maintain a healthy weight through a balanced diet and regular physical activity.",
+                "Consider keeping a food diary to identify specific triggers for your acid reflux.",
+                "Explore natural remedies, such as chamomile tea, to soothe acid reflux symptoms.",
+                "Discuss with your healthcare provider the use of proton pump inhibitors (PPIs) for acid reflux management.",
+                "Stay informed about lifestyle modifications that can help manage and prevent acid reflux.",
+                "Follow up with your healthcare provider regularly to monitor and adjust your acid reflux treatment plan."
+            ]
+        },
+        {
+            "tag": "menopause",
+            "patterns": [
+                "I experience hot flashes",
+                "I have night sweats",
+                "I notice changes in my menstrual cycle",
+                "I feel mood swings",
+                "I have trouble sleeping"
+            ],
+            "responses": [
+                "These symptoms may be related to menopause.",
+                "Consult a healthcare professional for guidance on managing symptoms and hormonal changes.",
+                "Explore hormone replacement therapy (HRT) options with your healthcare provider for menopausal symptom relief.",
+                "Stay physically active, as regular exercise can help alleviate menopausal symptoms.",
+                "Practice stress-reducing techniques, such as yoga or meditation, to manage mood swings.",
+                "Wear lightweight, breathable clothing to manage body temperature during hot flashes.",
+                "Maintain a consistent sleep schedule and create a relaxing bedtime routine for better sleep quality.",
+                "Ensure a well-balanced diet with sufficient calcium and vitamin D for bone health during menopause.",
+                "Consider herbal supplements, such as black cohosh, under the guidance of your healthcare provider.",
+                "Stay hydrated and limit caffeine and alcohol intake to minimize the impact on sleep and mood.",
+                "Connect with other women experiencing menopause for support and shared experiences.",
+                "Educate yourself about the various stages of menopause and associated changes.",
+                "Incorporate foods rich in phytoestrogens, such as soy products, into your diet for potential symptom relief.",
+                "Discuss with your healthcare provider the use of selective serotonin reuptake inhibitors (SSRIs) for mood management.",
+                "Explore alternative therapies like acupuncture or acupressure for menopausal symptom relief.",
+                "Monitor and track your menopausal symptoms to identify patterns and triggers.",
+                "Consider mindfulness and relaxation exercises to manage stress and improve overall well-being.",
+                "Seek regular check-ups with your healthcare provider to monitor hormonal changes and overall health.",
+                "Stay informed about the latest research and treatment options for menopausal symptoms.",
+                "Educate yourself about the potential benefits and risks associated with menopausal treatments."
+            ]
+        },
+        {
+            "tag": "concussion",
+            "patterns": [
+                "I had a blow to the head",
+                "I experience headaches",
+                "I have nausea and vomiting",
+                "I feel dizzy or lightheaded",
+                "I notice changes in vision"
+            ],
+            "responses": [
+                "These symptoms may indicate a concussion.",
+                "Rest and avoid activities that worsen symptoms. Seek medical attention for a thorough evaluation.",
+                "Avoid screen time and bright lights to reduce strain on the eyes during concussion recovery.",
+                "Gradually reintroduce light physical activity under the guidance of a healthcare professional.",
+                "Use cold packs to alleviate headaches and reduce inflammation following a concussion.",
+                "Stay well-hydrated and maintain a balanced diet to support overall recovery.",
+                "Follow the prescribed treatment plan and recommendations provided by your healthcare provider.",
+                "Inform teachers, employers, and coaches about your concussion to make necessary accommodations.",
+                "Engage in cognitive rest by limiting activities that require intense focus and concentration.",
+                "Consider wearing sunglasses to reduce sensitivity to light during the recovery period.",
+                "Communicate openly with your healthcare provider about any changes or worsening of symptoms.",
+                "Avoid alcohol and tobacco during the recovery period, as they may impact healing.",
+                "Gradually return to activities and work once approved by your healthcare provider.",
+                "Educate yourself about the potential long-term effects of concussions and the importance of proper management.",
+                "Join a support group or connect with others who have experienced concussions for shared insights.",
+                "Include omega-3 fatty acids in your diet for potential cognitive benefits during recovery.",
+                "Practice stress-reducing techniques, such as meditation, to support overall well-being.",
+                "Participate in neuropsychological testing to assess cognitive function during the recovery process.",
+                "Monitor and report changes in mood, sleep patterns, and cognitive function to your healthcare provider.",
+                "Stay informed about the latest research on concussion management and rehabilitation."
+            ]
+        },
+    
+    
+        {
+            "tag": "food_poisoning",
+            "patterns": [
+                "I have nausea and vomiting",
+                "I have diarrhea",
+                "I feel abdominal cramps",
+                "I have a fever",
+                "I feel weak and fatigued"
+            ],
+            "responses": [
+                "These symptoms may indicate food poisoning.",
+                "Stay hydrated, avoid solid foods for a while, and consult a healthcare professional if symptoms persist.",
+                "Rest and allow your digestive system to recover. Avoid spicy and greasy foods.",
+                "Consider over-the-counter anti-nausea medication, but consult a doctor first.",
+                "If symptoms worsen or persist, seek medical attention promptly.",
+                "Monitor for signs of dehydration, such as dark urine and excessive thirst.",
+                "Avoid dairy and caffeine until your digestive system settles.",
+                "Gradually reintroduce bland and easily digestible foods as tolerated.",
+                "Practice good hygiene to prevent the spread of potential infections.",
+                "If you suspect specific food poisoning, inform your healthcare provider for proper diagnosis.",
+                "Seek medical attention if you experience severe abdominal pain or persistent vomiting.",
+                "Rest in a comfortable position and keep your head elevated to alleviate symptoms.",
+                "Avoid alcohol and tobacco during recovery, as they may irritate the digestive system.",
+                "Consider probiotics to help restore the balance of healthy gut bacteria.",
+                "Follow any dietary recommendations provided by your healthcare provider.",
+                "Maintain proper food safety practices to prevent future instances of food poisoning.",
+                "If symptoms include blood in vomit or stool, seek immediate medical attention.",
+                "Stay informed about recent food recalls or outbreaks that may be related to your symptoms.",
+                "Consult with a healthcare professional to identify the specific pathogen causing the food poisoning.",
+                "Practice regular handwashing to prevent the spread of infectious agents."
+            ]
+        },
+        {
+            "tag": "gluten_sensitivity",
+            "patterns": [
+                "I have digestive issues after eating gluten",
+                "I experience bloating and gas",
+                "I feel fatigued after consuming gluten",
+                "I have joint pain",
+                "I have skin problems after gluten consumption"
+            ],
+            "responses": [
+                "These symptoms may suggest gluten sensitivity.",
+                "Consider a gluten-free diet, monitor your symptoms, and consult a healthcare professional for guidance.",
+                "Read food labels carefully to identify and avoid gluten-containing products.",
+                "Explore gluten-free alternatives for grains, such as rice, quinoa, and corn.",
+                "Include gluten-free grains and legumes in your diet for nutritional balance.",
+                "Consult with a registered dietitian for personalized meal planning and nutritional guidance.",
+                "If uncertain about gluten content, choose naturally gluten-free whole foods.",
+                "Experiment with gluten-free baking and cooking to enjoy a variety of tasty dishes.",
+                "Educate yourself about hidden sources of gluten in processed foods and sauces.",
+                "Consider non-gluten grains like sorghum, millet, and buckwheat as part of your diet.",
+                "Join gluten-free communities or forums to share experiences and recipe ideas.",
+                "Be cautious when dining out and inquire about gluten-free options at restaurants.",
+                "Monitor your symptoms and keep a food diary to identify potential triggers.",
+                "Stay informed about gluten-free products and resources in the market.",
+                "Consider testing for celiac disease if gluten sensitivity symptoms persist.",
+                "Incorporate gluten-free snacks, such as fruits, nuts, and vegetables, into your diet.",
+                "If dining at a friend's house, communicate your dietary needs to ensure a gluten-free meal.",
+                "Be patient with the adjustment to a gluten-free lifestyle and seek support from others.",
+                "Explore gluten-free cooking classes or workshops for new recipe ideas.",
+                "Consult with healthcare professionals experienced in gluten-related disorders for comprehensive care."
+            ]
+        },
+        {
+            "tag": "lactose_intolerance",
+            "patterns": [
+                "I experience digestive issues after consuming dairy",
+                "I have bloating and gas after dairy consumption",
+                "I feel nauseous after consuming milk",
+                "I have diarrhea after consuming dairy",
+                "I feel abdominal pain after dairy consumption"
+            ],
+            "responses": [
+                "These symptoms may be indicative of lactose intolerance.",
+                "Limit dairy intake, try lactose-free alternatives, and consult a healthcare professional for personalized advice.",
+                "Experiment with lactose-free dairy products, such as lactose-free milk and cheese.",
+                "Consider taking lactase supplements before consuming dairy products.",
+                "Explore non-dairy sources of calcium, such as fortified plant-based milks and leafy greens.",
+                "Read food labels carefully to identify hidden sources of lactose in processed foods.",
+                "Choose dairy-free alternatives, such as almond milk, coconut milk, or soy milk.",
+                "Gradually reintroduce small amounts of dairy to assess tolerance levels.",
+                "Consult with a registered dietitian for guidance on maintaining a balanced diet without dairy.",
+                "Stay well-hydrated and consume water-rich fruits and vegetables to support digestive health.",
+                "Join lactose intolerance support groups to share experiences and tips.",
+                "Be cautious when dining out and inquire about lactose-free options at restaurants.",
+                "Include probiotic-rich foods, like yogurt with active cultures, to support gut health.",
+                "Educate yourself about hidden sources of lactose in packaged foods and medications.",
+                "Experiment with dairy-free cooking and baking for tasty alternatives.",
+                "Consider dairy alternatives fortified with vitamins and minerals to meet nutritional needs.",
+                "If unsure about lactose content, opt for lactose-free versions of common dairy products.",
+                "Monitor symptoms and keep a food diary to identify specific triggers.",
+                "Seek advice from healthcare professionals experienced in managing lactose intolerance.",
+                "Be proactive in managing stress, as it can sometimes exacerbate symptoms of lactose intolerance."
+            ]
+        },
+        {
+            "tag": "plantar_fasciitis",
+            "patterns": [
+                "I have heel pain, especially in the morning",
+                "I feel pain in the arch of my foot",
+                "I experience pain after standing or sitting for a long time",
+                "I notice stiffness and difficulty walking",
+                "I have swelling in the heel area"
+            ],
+            "responses": [
+                "These symptoms may suggest plantar fasciitis.",
+                "Wear supportive footwear, perform stretching exercises, and consult a healthcare professional for further evaluation.",
+                "Avoid walking barefoot on hard surfaces to reduce impact on the feet.",
+                "Use orthotic inserts in your shoes to provide additional arch support.",
+                "Apply ice to the affected area to reduce inflammation and alleviate pain.",
+                "Consider gentle massage or rolling a frozen water bottle under the arch of your foot.",
+                "Perform calf stretches to help alleviate tension on the plantar fascia.",
+                "Avoid activities that exacerbate symptoms, such as prolonged standing or high-impact exercises.",
+                "Consider over-the-counter arch support devices for your shoes.",
+                "Maintain a healthy weight to reduce excess stress on your feet.",
+                "Consult with a physical therapist for targeted exercises and rehabilitation.",
+                "Use night splints to maintain a gentle stretch on the plantar fascia while sleeping.",
+                "Gradually increase physical activity and avoid sudden changes in intensity.",
+                "Incorporate low-impact exercises, such as swimming or cycling, into your routine.",
+                "Consider anti-inflammatory medications under the guidance of a healthcare professional.",
+                "Stretch your calves regularly to prevent tightness in the Achilles tendon.",
+                "Wear shoes with proper arch support and cushioning for all-day comfort.",
+                "Perform toe stretches to enhance flexibility in the toes and foot.",
+                "If symptoms persist, consider custom orthotics for tailored support.",
+                "Consult with a podiatrist for a comprehensive evaluation and treatment plan."
+            ]
+        },
+        {
+            "tag": "irritable_bowel_syndrome",
+            "patterns": [
+                "I experience abdominal pain or discomfort",
+                "I have bloating and gas",
+                "I notice changes in bowel habits",
+                "I feel the urge to move bowels but with little success",
+                "I have mucus in stools"
+            ],
+            "responses": [
+                "These symptoms may be associated with irritable bowel syndrome (IBS).",
+                "Maintain a fiber-rich diet, manage stress, and consult a healthcare professional for personalized advice.",
+                "Identify and avoid trigger foods that may exacerbate IBS symptoms.",
+                "Consider a food diary to track and correlate symptoms with specific dietary choices.",
+                "Practice mindful eating to promote digestion and reduce stress on the digestive system.",
+                "Include probiotic-rich foods, such as yogurt with live cultures, in your diet.",
+                "Stay well-hydrated by drinking an adequate amount of water throughout the day.",
+                "Engage in regular physical activity to support healthy bowel function.",
+                "Experiment with low-FODMAP foods under the guidance of a healthcare professional.",
+                "Explore stress-reducing techniques, such as meditation and deep breathing exercises.",
+                "Consider soluble fiber supplements to support regular bowel movements.",
+                "Maintain a consistent meal schedule to regulate bowel habits.",
+                "Limit caffeine and alcohol intake, as they may contribute to IBS symptoms.",
+                "Educate yourself about the various subtypes of IBS and potential treatment options.",
+                "Consult with a gastroenterologist for a comprehensive evaluation and diagnosis.",
+                "Join IBS support groups to connect with others facing similar challenges.",
+                "Explore alternative therapies, such as acupuncture, for potential symptom relief.",
+                "Consider medications prescribed by a healthcare professional to manage specific IBS symptoms.",
+                "Monitor stress levels and implement stress-management techniques in daily life.",
+                "If experiencing severe symptoms, seek medical attention promptly for proper diagnosis."
+            ]
+        },
+        {
+            "tag": "mood_disorder",
+            "patterns": [
+                "I experience extreme mood swings",
+                "I have episodes of elevated mood and energy",
+                "I feel extremely sad and hopeless",
+                "I have changes in sleep patterns",
+                "I engage in impulsive behaviors"
+            ],
+            "responses": [
+                "These symptoms may be indicative of a mood disorder.",
+                "Consult a mental health professional for a thorough evaluation and appropriate treatment options.",
+                "Establish a consistent daily routine to promote stability and predictability.",
+                "Engage in regular exercise, which has been shown to positively impact mood.",
+                "Prioritize sufficient sleep and maintain a consistent sleep schedule.",
+                "Consider mindfulness-based practices, such as meditation or yoga, to manage stress.",
+                "Encourage open communication with friends and family about your emotions.",
+                "Explore psychotherapy or counseling to address underlying emotional challenges.",
+                "Take note of triggers that may contribute to mood swings and work to minimize them.",
+                "Educate yourself about different types of mood disorders and their potential causes.",
+                "Monitor alcohol and substance use, as they can impact mood stability.",
+                "Consider joining a support group to connect with others experiencing similar challenges.",
+                "Practice relaxation techniques, such as deep breathing or progressive muscle relaxation.",
+                "If prescribed medication, adhere to the recommended treatment plan and follow-up appointments.",
+                "Establish a strong support system of friends and family who understand your challenges.",
+                "Learn and implement effective coping mechanisms for managing stress.",
+                "Explore activities that bring joy and a sense of accomplishment.",
+                "Keep a mood journal to track patterns and identify factors influencing mood.",
+                "Seek professional help during periods of crisis or when symptoms worsen.",
+                "Stay informed about advances in the understanding and treatment of mood disorders."
+            ]
+        },
+            {
+                "tag": "shin_splints",
+                "patterns": [
+                    "I feel pain along the inner edge of my shinbone",
+                    "I have pain during and after running",
+                    "I experience tenderness or soreness in the shin area",
+                    "I have swelling in the lower leg",
+                    "I notice pain when flexing my foot"
+                ],
+                "responses": [
+                    "These symptoms may suggest shin splints.",
+                    "Rest, ice the affected area, and perform stretching exercises. Consult a healthcare professional if symptoms persist.",
+                    "Consider wearing proper footwear with shock-absorbing insoles to reduce impact on the shins.",
+                    "Gradually increase the intensity and duration of your exercise routine to avoid overloading the shin muscles.",
+                    "Apply compression wraps to reduce swelling and provide support to the affected area.",
+                    "Consider cross-training activities that are less impactful on the shins, such as swimming or cycling.",
+                    "Consult with a physical therapist to assess and address biomechanical factors contributing to shin splints.",
+                    "Ensure proper warm-up and cool-down routines before and after exercise to prevent muscle strain.",
+                    "Avoid running on hard surfaces and opt for softer terrain when possible to reduce impact.",
+                    "Consider anti-inflammatory medications under the guidance of a healthcare professional for pain management.",
+                    "Engage in strengthening exercises for the calf muscles to provide better support to the shins.",
+                    "Monitor your running technique and seek guidance from a running coach if needed.",
+                    "Stay hydrated to support muscle function and recovery.",
+                    "Use a foam roller to massage and release tension in the muscles surrounding the shins.",
+                    "If pain persists, consider taking a break from high-impact activities to allow for proper healing.",
+                    "Include foods rich in calcium and vitamin D in your diet to support bone health.",
+                    "Listen to your body and avoid pushing through pain during physical activities.",
+                    "Consider incorporating low-impact exercises like yoga or swimming into your fitness routine.",
+                    "If symptoms persist, consult with a sports medicine specialist for a comprehensive evaluation.",
+                    "Invest in proper running shoes that provide adequate arch support and cushioning."
+                ]
+            },
+            {
+                "tag": "vertigo",
+                "patterns": [
+                    "I feel a spinning sensation",
+                    "I experience dizziness and lightheadedness",
+                    "I have nausea and vomiting",
+                    "I notice a loss of balance",
+                    "I feel unsteady, especially when moving my head"
+                ],
+                "responses": [
+                    "These symptoms may indicate vertigo.",
+                    "Avoid sudden movements, stay hydrated, and consult a healthcare professional for further evaluation.",
+                    "Perform gentle head movements and exercises to help alleviate symptoms of vertigo.",
+                    "Consider vestibular rehabilitation exercises under the guidance of a physical therapist.",
+                    "Ensure proper lighting in your surroundings to reduce visual disturbances that may trigger vertigo.",
+                    "Use caution when changing positions, especially when getting up from lying down or sitting.",
+                    "Practice relaxation techniques, such as deep breathing, to manage stress that may exacerbate vertigo.",
+                    "If dizziness is triggered by specific movements, modify your activities to minimize those motions.",
+                    "Consider keeping a diary to track episodes of vertigo and potential triggers.",
+                    "Avoid excessive caffeine and alcohol consumption, as they can contribute to dizziness.",
+                    "Ensure adequate lighting and support in bathrooms and hallways to prevent falls during episodes of vertigo.",
+                    "Consult with an ear, nose, and throat (ENT) specialist to rule out inner ear disorders.",
+                    "If vertigo is persistent, consider a referral to a neurologist for further evaluation.",
+                    "Stay well-hydrated to maintain overall health and support the vestibular system.",
+                    "Consider mindfulness practices, such as meditation, to reduce stress and anxiety associated with vertigo.",
+                    "Use assistive devices, such as canes or handrails, to enhance stability during episodes of vertigo.",
+                    "Discuss medications with your healthcare provider that may help manage symptoms of vertigo.",
+                    "Engage in activities that promote good balance, such as tai chi or yoga.",
+                    "Educate friends and family about your condition to receive support during vertigo episodes.",
+                    "If symptoms worsen or change, seek prompt medical attention to rule out underlying health issues."
+                ]
+            },
+            {
+                "tag": "gout",
+                "patterns": [
+                    "I have sudden and severe joint pain",
+                    "I experience swelling and redness in joints",
+                    "I feel tenderness in joints",
+                    "I have limited range of motion in affected joints",
+                    "I notice lumps under the skin around joints"
+                ],
+                "responses": [
+                    "These symptoms may suggest gout.",
+                    "Stay hydrated, avoid purine-rich foods, and consult a healthcare professional for personalized advice.",
+                    "Consider making dietary changes to reduce the intake of purine-rich foods, such as organ meats and certain seafood.",
+                    "Apply ice packs to the affected joints to help alleviate pain and reduce inflammation.",
+                    "Elevate the affected limb to reduce swelling during gout flare-ups.",
+                    "Consult with a registered dietitian to create a gout-friendly diet plan.",
+                    "Avoid alcohol consumption, particularly beer, as it may contribute to gout flare-ups.",
+                    "Discuss medication options with your healthcare provider to manage gout symptoms.",
+                    "Consider lifestyle modifications, such as maintaining a healthy weight and engaging in regular physical activity.",
+                    "Keep a journal of your diet and activities to identify potential triggers for gout attacks.",
+                    "If prescribed medications, take them as directed by your healthcare provider.",
+                    "Wear comfortable and supportive footwear to reduce pressure on the affected joints.",
+                    "Include anti-inflammatory foods in your diet, such as berries and leafy greens.",
+                    "Avoid crash diets or fasting, as rapid weight loss can trigger gout attacks.",
+                    "Limit intake of sugary beverages, as they may be associated with an increased risk of gout.",
+                    "Discuss with your healthcare provider the possibility of long-term medication to prevent gout flare-ups.",
+                    "Consider incorporating cherries or cherry juice into your diet, as they may have anti-inflammatory properties.",
+                    "Monitor your uric acid levels regularly through blood tests.",
+                    "Engage in low-impact exercises to maintain joint flexibility and overall joint health."
+                ]
+            },
+            {
+                "tag": "sciatica",
+                "patterns": [
+                    "I feel pain radiating from my lower back to the buttock and down the leg",
+                    "I experience tingling or numbness in the leg",
+                    "I notice weakness in the leg or foot",
+                    "I have difficulty standing or sitting for long periods",
+                    "I feel a sharp pain when walking or standing"
+                ],
+                "responses": [
+                    "These symptoms may be indicative of sciatica.",
+                    "Apply heat or ice, perform gentle stretches, and consult a healthcare professional for further evaluation.",
+                    "Avoid prolonged sitting and consider using a cushion or lumbar support for lower back comfort.",
+                    "Engage in low-impact exercises, such as swimming or walking, to promote flexibility and reduce pain.",
+                    "Consider physical therapy to learn exercises that can alleviate sciatic nerve compression.",
+                    "Maintain a neutral spine position when lifting objects to prevent exacerbating sciatica.",
+                    "Use a supportive chair with proper ergonomics to reduce strain on the lower back.",
+                    "Practice good posture and avoid slouching to reduce pressure on the sciatic nerve.",
+                    "Consider over-the-counter anti-inflammatory medications for short-term relief, under the guidance of a healthcare professional.",
+                    "If symptoms persist, explore alternative therapies such as acupuncture or chiropractic care.",
+                    "Include foods rich in anti-inflammatory nutrients, such as omega-3 fatty acids, in your diet.",
+                    "Avoid activities that involve heavy lifting or twisting of the spine during a sciatica flare-up.",
+                    "Use a lumbar roll or pillow to support the natural curve of your lower back when sitting.",
+                    "Discuss with your healthcare provider the possibility of imaging tests, such as an MRI, to assess the cause of sciatica.",
+                    "Practice gentle yoga poses that focus on stretching the lower back and hamstrings.",
+                    "Consider maintaining a healthy weight to reduce stress on the lower back and sciatic nerve.",
+                    "If engaging in exercise, choose activities that do not worsen sciatic pain, such as swimming or cycling.",
+                    "Stay consistent with any prescribed exercises or stretches recommended by your healthcare provider.",
+                    "If sciatica is affecting your sleep, try sleeping on your side with a pillow between your knees for support."
+                ]
+            },
+            {
+                "tag": "sleep_apnea",
+                "patterns": [
+                    "I snore loudly during sleep",
+                    "I experience pauses in breathing during sleep",
+                    "I feel tired and drowsy during the day",
+                    "I have difficulty staying asleep",
+                    "I wake up with a headache"
+                ],
+                "responses": [
+                    "These symptoms may suggest sleep apnea.",
+                    "Consider a sleep study, maintain a consistent sleep schedule, and consult a healthcare professional for further evaluation.",
+                    "Avoid sleeping on your back, as it may contribute to airway obstruction in sleep apnea.",
+                    "Use a humidifier in your bedroom to prevent dryness in the airway, which can exacerbate symptoms.",
+                    "If overweight, consider gradual weight loss through a balanced diet and regular exercise.",
+                    "Explore positional therapy devices that encourage sleeping on your side to reduce apnea episodes.",
+                    "Discuss with your healthcare provider the use of continuous positive airway pressure (CPAP) therapy.",
+                    "Practice good sleep hygiene by maintaining a dark, quiet, and cool sleep environment.",
+                    "Limit alcohol and sedative use, as they can relax the muscles in the airway and worsen sleep apnea.",
+                    "Engage in regular physical activity, but avoid vigorous exercise close to bedtime.",
+                    "If prescribed a CPAP machine, use it consistently as directed by your healthcare provider.",
+                    "Consider elevating the head of your bed to promote better airflow during sleep.",
+                    "If daytime fatigue persists, discuss with your healthcare provider the possibility of additional sleep studies.",
+                    "Address nasal congestion, if present, through methods like nasal saline sprays or allergy management.",
+                    "Maintain a consistent sleep schedule, aiming for the recommended 7-9 hours of sleep per night.",
+                    "Use a wedge pillow to elevate the upper body, which may help reduce snoring and improve breathing.",
+                    "Practice relaxation techniques, such as deep breathing, before bedtime to promote restful sleep.",
+                    "Inform your bed partner about your symptoms and seek their support in monitoring your sleep patterns.",
+                    "If symptoms worsen or new symptoms emerge, consult with a sleep specialist for a comprehensive evaluation.",
+                    "Consider lifestyle modifications, such as avoiding heavy meals close to bedtime, to reduce the risk of nighttime symptoms."
+                ]
+            },
+            {
+                "tag": "carpal_tunnel_syndrome",
+                "patterns": [
+                    "I feel numbness and tingling in my hand and fingers",
+                    "I have pain or discomfort in the wrist and hand",
+                    "I notice weakness in the hand",
+                    "I experience worsening symptoms at night",
+                    "I have difficulty gripping objects"
+                ],
+                "responses": [
+                    "These symptoms may be indicative of carpal tunnel syndrome.",
+                    "Take frequent breaks, use ergonomic tools, and consult a healthcare professional for personalized advice.",
+                    "Consider wrist splints to keep the wrist in a neutral position and alleviate pressure on the median nerve.",
+                    "Modify your work environment to reduce repetitive motions and strain on the wrists.",
+                    "Perform gentle stretching exercises for the wrists and hands throughout the day.",
+                    "If typing for extended periods, ensure proper hand positioning and use a keyboard with a wrist rest.",
+                    "Apply cold packs to the wrist to reduce inflammation during flare-ups.",
+                    "Explore alternative mouse and keyboard options that promote a more ergonomic hand position.",
+                    "Consider over-the-counter anti-inflammatory medications, under the guidance of a healthcare professional, for pain management.",
+                    "If prescribed wrist exercises, perform them regularly to maintain flexibility and strength.",
+                    "Avoid prolonged activities that involve repetitive wrist motions, such as prolonged typing or gripping.",
+                    "Discuss with your employer the possibility of ergonomic assessments and adjustments in the workplace.",
+                    "If engaging in hobbies that strain the hands, take regular breaks and incorporate hand exercises.",
+                    "Consider avoiding activities that involve forceful or repetitive hand movements during acute flare-ups.",
+                    "Maintain a neutral wrist position when sleeping to reduce pressure on the median nerve.",
+                    "If symptoms worsen or become severe, consult with a hand specialist or orthopedic surgeon.",
+                    "Practice good posture to prevent nerve compression in the neck and shoulders.",
+                    "Stay well-hydrated to support joint health, including the joints in the wrists.",
+                    "If underlying conditions, such as rheumatoid arthritis, are contributing to symptoms, work with a rheumatologist for comprehensive care."
+                ]
+            },
+            
+                {
+                    "tag": "fibromyalgia",
+                    "patterns": [
+                        "I experience widespread pain and tenderness",
+                        "I have fatigue and difficulty sleeping",
+                        "I notice stiffness in the muscles",
+                        "I have headaches and migraines",
+                        "I feel cognitive difficulties, often referred to as 'fibro fog'"
+                    ],
+                    "responses": [
+                        "These symptoms may suggest fibromyalgia.",
+                        "Manage stress, engage in gentle exercises, and consult a healthcare professional for a comprehensive evaluation.",
+                        "Consider incorporating relaxation techniques, such as meditation or deep breathing, into your daily routine.",
+                        "Explore alternative therapies like acupuncture or massage for pain relief.",
+                        "Keep a symptom diary to track patterns and identify triggers for fibromyalgia flares.",
+                        "Join a support group to connect with others who have similar experiences and share coping strategies.",
+                        "Prioritize sleep hygiene practices to improve the quality of your sleep.",
+                        "Consult with a rheumatologist to confirm the diagnosis and discuss appropriate treatment options.",
+                        "Engage in low-impact exercises, such as swimming or gentle yoga, to improve flexibility.",
+                        "Work with your healthcare provider to develop a personalized treatment plan that addresses your specific symptoms.",
+                        "Consider cognitive-behavioral therapy (CBT) to address the psychological aspects of fibromyalgia.",
+                        "Explore dietary changes, such as an anti-inflammatory diet, under the guidance of a healthcare professional.",
+                        "Gradually incorporate aerobic exercise into your routine, as it may help alleviate fibromyalgia symptoms.",
+                        "Experiment with heat or cold therapy to find out which provides relief for muscle pain.",
+                        "Educate yourself about fibromyalgia to better understand and manage your condition.",
+                        "Discuss with your healthcare provider the potential use of medications to manage pain and improve sleep.",
+                        "Practice pacing yourself and avoiding overexertion to prevent symptom exacerbation.",
+                        "Consider stress-management techniques, such as mindfulness or biofeedback, to reduce overall stress levels.",
+                        "Stay connected with healthcare providers for regular check-ups and adjustments to your treatment plan.",
+                        "Explore complementary therapies like herbal supplements, but consult with a healthcare professional before trying them."
+                    ]
+                },
+                {
+                    "tag": "shingles",
+                    "patterns": [
+                        "I have a painful rash with blisters",
+                        "I notice red patches on the skin",
+                        "I experience burning or shooting pain",
+                        "I feel itching and tingling",
+                        "I have flu-like symptoms"
+                    ],
+                    "responses": [
+                        "These symptoms may indicate shingles.",
+                        "Seek medical attention promptly, as antiviral medications are most effective when started early.",
+                        "Avoid scratching the affected area to prevent further irritation and potential scarring.",
+                        "Keep the rash clean and dry to promote healing and reduce the risk of infection.",
+                        "Apply calamine lotion or cool compresses to soothe itching and provide relief.",
+                        "Consider over-the-counter pain relievers under the guidance of a healthcare professional.",
+                        "Rest and avoid strenuous activities to support your body's recovery.",
+                        "Isolate yourself from individuals who have not had chickenpox or the chickenpox vaccine to prevent transmission.",
+                        "Stay well-hydrated and maintain a balanced diet to support your immune system.",
+                        "Discuss with your healthcare provider the use of topical creams or patches for pain relief.",
+                        "Practice stress reduction techniques, as stress can exacerbate shingles symptoms.",
+                        "If prescribed antiviral medications, follow the recommended course diligently.",
+                        "Consider wearing loose-fitting clothing to minimize friction on the affected area.",
+                        "Engage in activities that promote relaxation and well-being during the recovery period.",
+                        "Ask your healthcare provider about the shingles vaccine to reduce the risk of recurrence.",
+                        "Monitor for complications, such as bacterial infections, and seek medical attention if needed.",
+                        "Educate yourself about the stages of shingles and what to expect during the healing process.",
+                        "Discuss post-herpetic neuralgia (PHN) prevention strategies with your healthcare provider.",
+                        "Connect with a support group to share experiences and coping strategies with others who have had shingles.",
+                        "Consider alternative therapies like acupuncture or meditation for pain management."
+                    ]
+                },
+                {
+                    "tag": "eczema",
+                    "patterns": [
+                        "I have red, inflamed, and itchy skin",
+                        "I notice dry and scaly patches",
+                        "I experience oozing or crusting of the skin",
+                        "I feel a burning or stinging sensation",
+                        "My skin is sensitive to certain triggers"
+                    ],
+                    "responses": [
+                        "These symptoms may suggest eczema.",
+                        "Use gentle skincare, moisturize regularly, and consult a dermatologist for personalized treatment options.",
+                        "Identify and avoid triggers that may exacerbate eczema symptoms, such as certain fabrics or harsh soaps.",
+                        "Apply a hypoallergenic and fragrance-free moisturizer to keep the skin hydrated.",
+                        "Consider using a humidifier to maintain proper moisture levels in your living environment.",
+                        "Take short, lukewarm baths and use mild, non-soap cleansers to avoid drying out the skin.",
+                        "Use prescribed topical corticosteroids or other medications as directed by your dermatologist.",
+                        "Wear loose-fitting, breathable clothing to prevent irritation and allow the skin to breathe.",
+                        "Implement a consistent skincare routine, including gentle cleansing and moisturizing, to maintain skin health.",
+                        "Explore natural remedies, such as oatmeal baths or coconut oil, for additional relief.",
+                        "Avoid scratching affected areas to prevent further inflammation and potential infection.",
+                        "Consider allergy testing to identify potential allergens contributing to eczema flare-ups.",
+                        "Use sunscreen with a high SPF to protect your skin from sun exposure.",
+                        "Consult with a dermatologist for recommendations on skincare products suitable for sensitive skin.",
+                        "Manage stress through relaxation techniques, as stress can trigger eczema episodes.",
+                        "Discuss with your healthcare provider the possibility of oral medications for severe eczema cases.",
+                        "Monitor your diet, as certain foods may contribute to eczema symptoms in some individuals.",
+                        "Seek emotional support and education through eczema support groups or forums.",
+                        "Consider wearing protective clothing, such as gloves, in situations where skin contact with irritants is likely.",
+                        "Follow up regularly with your dermatologist for adjustments to your eczema management plan."
+                    ]
+                },
+                {
+                    "tag": "osteoporosis",
+                    "patterns": [
+                        "I experience bone pain or tenderness",
+                        "I have fractures, especially in the spine or hip",
+                        "I notice a loss of height over time",
+                        "I have a stooped posture",
+                        "I am at risk due to age or family history"
+                    ],
+                    "responses": [
+                        "These symptoms may indicate osteoporosis.",
+                        "Ensure adequate calcium and vitamin D intake, engage in weight-bearing exercises, and consult a healthcare professional for bone density testing.",
+                        "Incorporate strength training exercises into your routine to improve bone density and muscle strength.",
+                        "Consume a diet rich in calcium, including dairy products, leafy greens, and fortified foods.",
+                        "Avoid excessive alcohol consumption, as it can negatively impact bone health.",
+                        "Quit smoking, as tobacco use is associated with a higher risk of osteoporosis and fractures.",
+                        "Discuss medications that support bone health with your healthcare provider, if appropriate.",
+                        "Maintain a healthy body weight to reduce stress on the bones and joints.",
+                        "Participate in weight-bearing activities such as walking, jogging, or dancing.",
+                        "Ensure proper lighting and minimize tripping hazards at home to prevent falls.",
+                        "Undergo regular bone density tests as recommended by your healthcare provider.",
+                        "Consider hormone replacement therapy (HRT) under the guidance of your healthcare professional.",
+                        "Include foods rich in magnesium, vitamin K, and phosphorus in your diet for overall bone health.",
+                        "Discuss the importance of bone health with your primary care physician during routine check-ups.",
+                        "Explore activities like yoga or tai chi to improve balance and flexibility.",
+                        "Wear shoes with non-slip soles to reduce the risk of falls, particularly on slippery surfaces.",
+                        "If prescribed calcium supplements, take them as directed and discuss potential side effects with your healthcare provider.",
+                        "Educate yourself about osteoporosis prevention and management strategies.",
+                        "Connect with a support group to share experiences and gain insights into living with osteoporosis.",
+                        "If you experience fractures or worsening symptoms, seek immediate medical attention for evaluation and treatment."
+                    ]
+                },
+                {
+                    "tag": "glaucoma",
+                    "patterns": [
+                        "I have blurred or hazy vision",
+                        "I notice rainbow-colored halos around lights",
+                        "I experience severe eye pain",
+                        "I have nausea and vomiting",
+                        "I see sudden changes in vision"
+                    ],
+                    "responses": [
+                        "These symptoms may suggest glaucoma.",
+                        "Regular eye exams are crucial. Consult an eye care professional for evaluation and management of intraocular pressure.",
+                        "Adhere to prescribed eye drops and medications to control intraocular pressure.",
+                        "Avoid self-medicating with over-the-counter eye drops without consulting your eye care professional.",
+                        "Inform your healthcare provider about all medications you are taking, as some may affect intraocular pressure.",
+                        "If advised by your eye care professional, consider laser therapy or surgical procedures to manage glaucoma.",
+                        "Maintain a healthy lifestyle, including regular exercise, to support overall eye health.",
+                        "Discuss with your healthcare provider the potential impact of systemic conditions, such as diabetes, on glaucoma.",
+                        "Protect your eyes from excessive sunlight by wearing sunglasses with UV protection.",
+                        "Monitor changes in your vision and report them promptly to your eye care professional.",
+                        "Attend follow-up appointments as scheduled to monitor the progression of glaucoma.",
+                        "If prescribed multiple eye drops, wait at least five minutes between each medication to ensure effectiveness.",
+                        "Inform your eye care professional about any family history of glaucoma.",
+                        "Manage underlying health conditions, such as hypertension, as they can influence glaucoma risk.",
+                        "Explore stress-reducing activities, as stress may impact intraocular pressure.",
+                        "Discuss with your healthcare provider the potential need for visual field tests to assess peripheral vision.",
+                        "If prescribed oral medications for glaucoma management, follow the recommended dosage and schedule.",
+                        "Maintain a balanced diet with a focus on foods rich in antioxidants for eye health.",
+                        "Educate yourself about the different types of glaucoma and their specific treatment approaches.",
+                        "Connect with glaucoma support groups to share experiences and gain insights into coping with the condition."
+                    ]
+                },
+                    {
+                        "tag": "chest_pain",
+                        "patterns": [
+                            "I have chest pain.",
+                            "I'm experiencing discomfort in my chest.",
+                            "There's a sensation of pressure on my chest."
+                        ],
+                        "responses": [
+                            "Chest pain can be concerning. Seek immediate medical attention and describe your symptoms to a healthcare professional."
+                        ]
+                    },
+                    {
+                        "tag": "persistent_cough",
+                        "patterns": [
+                            "I'm experiencing persistent coughing.",
+                            "I have a cough that won't go away.",
+                            "My cough has been lasting for an extended period."
+                        ],
+                        "responses": [
+                            "Persistent coughing may have various causes. Consult a healthcare professional for an evaluation and appropriate treatment."
+                        ]
+                    },
+                    {
+                        "tag": "headaches",
+                        "patterns": [
+                            "My head hurts, and I have frequent headaches.",
+                            "I've been experiencing recurring headaches.",
+                            "I suffer from frequent head pain."
+                        ],
+                        "responses": [
+                            "Frequent headaches can be a symptom of various conditions. Consult with a healthcare professional to determine the cause and appropriate management."
+                        ]
+                    },
+                    {
+                        "tag": "fatigue",
+                        "patterns": [
+                            "I'm feeling fatigued all the time.",
+                            "I experience constant fatigue and lack of energy.",
+                            "I'm consistently tired throughout the day."
+                        ],
+                        "responses": [
+                            "Persistent fatigue may indicate underlying health issues. Consult a healthcare professional for a thorough evaluation and personalized advice."
+                        ]
+                    },
+                    {
+                        "tag": "insomnia",
+                        "patterns": [
+                            "I've been having trouble sleeping lately.",
+                            "I'm experiencing difficulty falling asleep or staying asleep.",
+                            "My sleep patterns have been disrupted."
+                        ],
+                        "responses": [
+                            "Insomnia can have various causes. Discuss your sleep concerns with a healthcare professional to explore effective solutions."
+                        ]
+                    },
+                    {
+                        "tag": "weight_changes",
+                        "patterns": [
+                            "I've noticed changes in my weight.",
+                            "My weight has been fluctuating unexpectedly.",
+                            "I'm experiencing unexplained weight changes."
+                        ],
+                        "responses": [
+                            "Unexplained changes in weight may require further investigation. Consult a healthcare professional to determine the underlying cause."
+                        ]
+                    },
+                    {
+                        "tag": "joint_pain",
+                        "patterns": [
+                            "My joints are painful, especially in my knees.",
+                            "I experience discomfort and pain in my joints, particularly the knees.",
+                            "There's persistent pain in my joints, and it's affecting my knees."
+                        ],
+                        "responses": [
+                            "Joint pain, especially in the knees, can have various causes. Consult with a healthcare professional for a thorough examination and appropriate management."
+                        ]
+                    },
+                    {
+                        "tag": "stress_anxiety",
+                        "patterns": [
+                            "I'm feeling stressed and anxious.",
+                            "I've been experiencing heightened stress levels.",
+                            "Anxiety has been affecting my daily life."
+                        ],
+                        "responses": [
+                            "Managing stress and anxiety is crucial for overall well-being. Consider speaking to a mental health professional for support and coping strategies."
+                        ]
+                    },
+                    {
+                        "tag": "digestive_issues",
+                        "patterns": [
+                            "I'm having digestive issues.",
+                            "I'm experiencing discomfort and irregularities in my digestion.",
+                            "Digestive problems have been affecting me."
+                        ],
+                        "responses": [
+                            "Digestive issues may be related to various factors. Consult a healthcare professional for an evaluation and personalized advice on managing digestive health."
+                        ]
+                    },
+                    {
+                        "tag": "mood_swings",
+                        "patterns": [
+                            "I've been having mood swings recently.",
+                            "My moods have been fluctuating unexpectedly.",
+                            "I'm experiencing sudden changes in my emotional state."
+                        ],
+                        "responses": [
+                            "Mood swings can be influenced by various factors. If persistent, consider consulting a mental health professional for a comprehensive assessment."
+                        ]
+                    },
+                    {
+                        "tag": "fever",
+                        "patterns": [
+                            "I have a fever.",
+                            "I'm running a high temperature.",
+                            "I've been experiencing feverish symptoms."
+                        ],
+                        "responses": [
+                            "Fever can be a sign of an underlying infection or illness. Seek medical attention to determine the cause and appropriate treatment."
+                        ]
+                    },
+                    {
+                        "tag": "back_pain",
+                        "patterns": [
+                            "I've been having back pain.",
+                            "I'm experiencing discomfort and pain in my back.",
+                            "There's persistent pain in my back."
+                        ],
+                        "responses": [
+                            "Back pain can have various causes. Consult with a healthcare professional for an examination and personalized advice on managing back pain."
+                        ]
+                    },
+                    {
+                        "tag": "shortness_of_breath",
+                        "patterns": [
+                            "I'm feeling short of breath.",
+                            "I experience difficulty breathing.",
+                            "I've noticed a reduction in my ability to breathe comfortably."
+                        ],
+                        "responses": [
+                            "Shortness of breath can be a concerning symptom. Seek prompt medical attention to evaluate the underlying cause."
+                        ]
+                    }
+                
+        ]     
+    }
